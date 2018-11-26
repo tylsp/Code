@@ -1,3 +1,4 @@
+#先排序再用二分法查找
                             #查找最小值
 def find_smallest(arr):
     smallest = arr[0]
