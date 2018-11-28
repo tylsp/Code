@@ -1,0 +1,11 @@
+1.在本地仓库的目录下调用命令行删除根目录下的.git文件夹，
+输入find . -name ".git" | xargs rm -Rf这样本地仓库就清除了，像下面这样，master不见了。
+2.手动删除掉残留的.git文件
+3.在命令行中输入rm -rf + github仓库地址，
+例rm -rf https://github.com/NeroSolomon/VLearning.git
+4.在github的对应的库中到setting删除库。
+--------------------- 
+作者：NeroSolomon 
+来源：CSDN 
+原文：https://blog.csdn.net/nerosolomon/article/details/79453485 
+版权声明：本文为博主原创文章，转载请附上博文链接！
