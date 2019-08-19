@@ -1,0 +1,89 @@
+/*整体背景*/
+body {
+	background-color: #bb1a39;
+}
+/*右侧菜单*/
+#aside {
+	margin-right: 2vw;
+	width: 8vw;
+	text-align: right;
+	position: fixed;
+	top: 60vh;
+	right: 0;
+}
+
+#aside>a {
+	margin-top: 2vh;
+	display: block;
+}
+
+#aside>a:hover {
+	text-decoration: none;
+}
+
+#aside>a>span {
+	color: #fcfcff;
+	font-size: 12px;
+	display: inline;
+}
+
+#aside>a>span>img {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+#aside>a>span:hover {
+	color: rgba(0, 0, 0, 0.68);
+}
+
+#aside>a>label {
+	margin-bottom: 2vh;
+	color: black;
+	font-size: 12px;
+}
+
+.btn-group>.btn:first-child {
+	margin-left: 10vw;
+	border-radius: 0%;
+}
+
+.btn-group>.btn:nth-child(2) {
+	margin-left: 5vw;
+	border-radius: 0%;
+}
+/*商品*/
+table {
+	margin: 0 auto;
+}
+
+td {
+	margin: 20px 0 0 20px;
+	padding: 5px;
+	display: inline-block;
+	border: 1px solid black;
+	width: 605px;
+	height: 550px;
+	background-color: white;
+	text-align: center;
+}
+
+td>p {
+	margin: 0 auto;
+	text-align: center;
+	font-size:10px;
+	width: 10vw
+}
+
+td>h4{
+	margin: 5px auto;
+}
+
+td button:first-of-type {
+	margin: 1vh 4vw 0 4vw;
+	
+}
+td button{
+	color: red;
+	
+} 
